@@ -5,66 +5,197 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Boostrap v5.2-->
+    <!--Boostrap v5.2-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
-    <!-- Google Fonts-->
+    <!--Google Fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&family=Roboto:ital@1&display=swap"
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&family=Roboto:wght@300&display=swap"
         rel="stylesheet">
+    <!--Font awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!--Ícono-->
-   <link rel="shortcut icon" href="assets/img/favicon-16x16.png" type="íconoviaje">
-    <!-- Título-->
+    <link rel="shortcut icon" href="assets/img/favicon-16x16.png" type="íconoviaje">
+    <!--Título-->
     <title>Viajes Chile</title>
-    <!-- Style CSS-->
-    <link rel="stylesheet" href="assets/">
+    <!--Style CSS-->
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
-<!-- Navbar-->
-<nav class="navbar navbar-expand-lg bg-light">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#">Viajes Chile</a> <img class="ícononavbar" src="" alt="Logo viajes 1">
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Dropdown
-            </a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Action</a></li>
-              <li><a class="dropdown-item" href="#">Another action</a></li>
-              <li><hr class="dropdown-divider"></li>
-              <li><a class="dropdown-item" href="#">Something else here</a></li>
-            </ul>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link disabled">Disabled</a>
-          </li>
-        </ul>
-        <form class="d-flex" role="search">
-          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success" type="submit">Search</button>
-        </form>
-      </div>
+<header>
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-transparente fixed-top text-white">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img class="ícononavbar" src="assets/img/viajes.svg" alt="ícononavbar"
+                    height="30px"> Viajes Chile</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="contenedornavbarderecha">
+                <ul class="navbar-nav ms-auto me-5 pe-5">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Quiénes somos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Destacados</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--Fin Navbar-->
+    <!--Carrusel-->
+    <div id="carruselcontenedor" class="carousel slide" data-bs-ride="carousel">
+        <div class="">
+            <div class="carousel-item active">
+                <img src="assets/img/carousel1.jpg" class="d-block w-100" alt="llamas">
+            </div>
+            <div class="carousel-item">
+                <img src="assets/img/carousel2.jpg" class="d-block w-100" alt="moais">
+            </div>
+            <div class="carousel-item">
+                <img src="assets/img/carousel3.jpg" class="d-block w-100" alt="pinguino">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
     </div>
-  </nav>
-<body>
+    <!--Fin Carrusel-->
+</header>
 
+<body id="body">
+    <!--Después del carrusel-->
+    <div class="despuésdelcarrusel">
+        <!--Quiénes somos-->
+        <h1 class="quienésomos">¿Quiénes somos?</h1>
+        <hr class=líneadivisora>
+        <div class="containerparrafos hidden-xs d-none d-md-block mx-center m-5">
+            <div class="row">
+                <div class="col">
+                    <div class="parrafos">
+
+                        <p class="textos">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa modi quos
+                            deleniti totam, provident aspernatur soluta? Eaque, cumque illo ea aliquid rem soluta
+                            excepturi. Deserunt voluptas eveniet blanditiis possimus nemo!. Lorem, ipsum dolor sit amet
+                            consectetur adipisicing elit. Consectetur ullam magni, eaque doloribus cum tenetur itaque
+                            neque quam aspernatur delectus veritatis fuga praesentium numquam corporis eveniet, nobis,
+                            similique quis obcaecati!</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="parrafos">
+                        <p class="textos">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                            exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                            in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+                            sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
+                            laborum.</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="parrafos">
+                        <p class="textos">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                            exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                            in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+                            sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
+                            laborum.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Final Quiénes somos-->
+    <!--Destacados-->
+    <h3 class="text-center">Destacados</h3>
+    <hr class=líneadivisora>
+
+    <div class="contenedorcards mx-center m-5">
+        <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 p-3 ">
+            <div class="card" style="width: 18rem;">
+                <img src="assets/img/card1.jpg" class="card-img-top" alt="Patagonia">
+                <div class="card-body">
+                    <h3 class="títulocards">Lorem Ipsum</h3>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's content.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 p-3 ">
+            <div class="card" style="width: 18rem;">
+                <img src="assets/img/card2.jpg" class="card-img-top" alt="Laguna en el desierto">
+                <div class="card-body">
+                    <h3 class="títulocards">Lorem Ipsum</h3>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's content.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 p-3 ">
+            <div class="card" style="width: 18rem;">
+                <img src="assets/img/card3.jpg" class="card-img-top" alt="Salar">
+                <div class="card-body">
+                    <h3 class="títulocards">Lorem Ipsum</h3>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's content.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 p-3 ">
+            <div class="card" style="width: 18rem;">
+                <img src="assets/img/card4.jpg" class="card-img-top" alt="Bosque Nativo">
+                <div class="card-body">
+                    <h3 class="títulocards">Lorem Ipsum</h3>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's content.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+<!--Final Destacados-->
+    <!--Contacto-->
+
+    <!--Final Contacto-->
+    <!--Footer-->
+    <footer class="footer">
+        <h3 class="títulofooter">Viajes Chile</h3>
+<div class="íconosfooter">
+    <a href="https://github.com/" target="_blank"></a><i class="fa-brands fa-square-github"></i>
+    <a href="https://cl.linkedin.com/" target="_blank"></a><i class="fa-brands fa-linkedin"></i>
+    <a href="https://twitter.com/?lang=es" target="_blank"></a><i class="fa-brands fa-square-twitter"></i>
+    <a href="https://web.facebook.com/?_rdc=1&_rdr" target="_blank"></a><i class="fa-brands fa-square-facebook"></i>
+</div>
+    </footer>
+    <!--Final Footer-->
+    <!--CDN Boostrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js"
+        integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK"
+        crossorigin="anonymous"></script>
+    <!--Jquery-->
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"
+        integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+    <!--JavaScript-->
+    <script>
+        scrc = "main.js"
+    </script>
 </body>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js"
-integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK"
-crossorigin="anonymous"></script>
-<script src="https://code.jquery.com/jquery-3.6.1.min.js"
-integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
-<script>
-scrc = "main.js"</script> 
+
 </html>

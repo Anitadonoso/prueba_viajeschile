@@ -1,0 +1,79 @@
+/*scroll horizontal*/
+* {
+    overflow-x: hidden;
+}
+/* Body */
+#body{
+    background-color: #000000;
+}
+/* Navbar */
+.ícononavbar {
+     margin-left: 10em;
+}
+.bg-transparente{
+    background-color: transparent;
+    color: #ffff;
+}
+
+.navbar-brand {
+    font-family: 'PT Sans Narrow', sans-serif;
+    color: #ffff;
+}
+
+#contenedornavbarderecha {
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+/* Carrusel*/
+.carousel-inner{
+    width: 100%;
+}
+
+/* Después del carrusel*/
+.despuésdelcarrusel{
+    background-color: #000000;
+}
+.líneadivisora{
+    background-color: #000000;
+    padding-left: 3em;
+}
+/* Quíenes somos*/ 
+.quienésomos{
+    background-color: #000000;
+    font-family: 'PT Sans Narrow', sans-serif;
+    color: #ffff;
+    font-size: 2em;
+    text-align: center;
+    padding-bottom: 2em;
+    padding-top: 2em;
+}
+.containerparrafos{
+    background-color: #000000; 
+    font-family: 'PT Sans Narrow', sans-serif;
+    color: #ffff;
+    font-size: 1em;
+}
+/* Destacados*/ 
+.text-center{
+    background-color: #000000;
+    font-family: 'PT Sans Narrow', sans-serif;
+    color: #ffff;
+    font-size: 2em;
+    margin-top: 0em;
+    overflow: hidden;
+}
+.títulocards{
+    overflow: hidden;
+}
+/* Footer*/
+.footer{
+    background-color: aqua;
+}
+.títulofooter{
+    background-color: aqua;
+    overflow: hidden;
+    padding-left: 10em;
+    color: #ffff;
+}
+.íconosfooter{
+    display: inline-block;
+}
