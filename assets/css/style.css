@@ -5,6 +5,8 @@
 /* Body */
 #body{
     background-color: #000000;
+    overflow: hidden;
+
 }
 /* Navbar */
 .ícononavbar {
@@ -52,6 +54,40 @@
     color: #ffff;
     font-size: 1em;
 }
+.iconoplane{
+ background-color: #5dc1b9;
+ color: #ffff;
+ width: 3em;
+ padding: 1em;
+ padding-left: 140px;
+ padding-right: 140px;
+ font-size: 150%;
+ margin: 0 auto;
+ margin-right: 10px;
+ 
+}
+.iconomountain{
+    background-color: #5dc1b9;
+    color: #ffff;
+    width: 3em;
+    padding: 1em;
+    padding-left: 140px;
+    padding-right: 140px;
+    font-size: 150%;
+    margin: 0 auto;
+    margin-right: 10px;
+}
+.iconoroute{
+    background-color: #5dc1b9;
+    color: #ffff;
+    width: 3em;
+    padding: 1em;
+    padding-left: 140px;
+    padding-right: 140px;
+    font-size: 150%;
+    margin: 0 auto;
+    margin-right: 10px;
+}
 /* Destacados*/ 
 .text-center{
     background-color: #000000;
@@ -85,16 +121,19 @@ color: #ffff;
 }
 #btn-contactar{
     color: #ffff;
-    background-color:#5dc1b9 ;
+    background-color:#54B4D3 ;
 }
 /* Footer*/
 
 .títulofooter{
-    background-color: aqua;
+    padding-top: 1em;
     overflow: hidden;
     padding-left: 10em;
     color: #ffff;
 }
+#footer{
+    background-color: #54B4D3;
+}
 .íconosfooter{
-    
+  width: 3em;  
 }
