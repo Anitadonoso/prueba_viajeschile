@@ -85,7 +85,7 @@
     <!--Después del carrusel-->
     <div class="despuésdelcarrusel">
         <!--Quiénes somos-->
-        <h1 class="quienésomos">¿Quiénes somos?</h1>
+        <h1 class="quienésomos hidden-xs d-none d-md-block mx-center m-5">¿Quiénes somos?</h1>
         <hr class=líneadivisora>
         <div class="containerparrafos hidden-xs d-none d-md-block mx-center m-5">
             <div class="row">
@@ -128,8 +128,8 @@
     <h3 class="text-center">Destacados</h3>
     <hr class=líneadivisora>
 
-    <div class="contenedorcards mx-center m-5">
-        <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 p-3 ">
+    <div class="contenedorcards mx-center m-5 row">
+        <div class="col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3 p-3 ">
             <div class="card" style="width: 18rem;">
                 <img src="assets/img/card1.jpg" class="card-img-top" alt="Patagonia">
                 <div class="card-body">
@@ -139,7 +139,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 p-3 ">
+        <div class="col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3 p-3 ">
             <div class="card" style="width: 18rem;">
                 <img src="assets/img/card2.jpg" class="card-img-top" alt="Laguna en el desierto">
                 <div class="card-body">
@@ -149,7 +149,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 p-3 ">
+        <div class="col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3 p-3 ">
             <div class="card" style="width: 18rem;">
                 <img src="assets/img/card3.jpg" class="card-img-top" alt="Salar">
                 <div class="card-body">
@@ -159,7 +159,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 p-3 ">
+        <div class="col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3 p-3 ">
             <div class="card" style="width: 18rem;">
                 <img src="assets/img/card4.jpg" class="card-img-top" alt="Bosque Nativo">
                 <div class="card-body">
@@ -170,19 +170,37 @@
             </div>
         </div>
     </div>
-<!--Final Destacados-->
+    <!--Final Destacados-->
     <!--Contacto-->
-
+    <div>
+        <div class="mb-3">
+            <label for="formGroupExampleInput" class="form-label">Example label</label>
+            <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Example input placeholder">
+        </div>
+        <div class="mb-3">
+            <label for="formGroupExampleInput2" class="form-label">Another label</label>
+            <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Another input placeholder">
+        </div>
+        <div class="form-floating">
+            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2"
+                style="height: 100px"></textarea>
+            <label for="floatingTextarea2">Comments</label>
+            <div class="col-12">
+                <button class="btn btn-primary" type="submit">Submit form</button>
+            </div>
+        </div>
+    </div>
     <!--Final Contacto-->
     <!--Footer-->
     <footer class="footer">
         <h3 class="títulofooter">Viajes Chile</h3>
-<div class="íconosfooter">
-    <a href="https://github.com/" target="_blank"></a><i class="fa-brands fa-square-github"></i>
-    <a href="https://cl.linkedin.com/" target="_blank"></a><i class="fa-brands fa-linkedin"></i>
-    <a href="https://twitter.com/?lang=es" target="_blank"></a><i class="fa-brands fa-square-twitter"></i>
-    <a href="https://web.facebook.com/?_rdc=1&_rdr" target="_blank"></a><i class="fa-brands fa-square-facebook"></i>
-</div>
+        <div class="íconosfooter">
+            <a href="https://github.com/" target="_blank"><i class="fa-brands fa-square-github"></i></a>
+            <a href="https://cl.linkedin.com/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://twitter.com/?lang=es" target="_blank"><i class="fa-brands fa-square-twitter"></i></a>
+            <a href="https://web.facebook.com/?_rdc=1&_rdr" target="_blank"><i
+                class="fa-brands fa-square-facebook"></i></a>
+        </div>
     </footer>
     <!--Final Footer-->
     <!--CDN Boostrap-->

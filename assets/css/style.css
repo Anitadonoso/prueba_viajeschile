@@ -61,8 +61,18 @@
     margin-top: 0em;
     overflow: hidden;
 }
+
+/* Destacados */
+.card-img-top{
+    width: 100%;
+    height: 10em;
+}
 .títulocards{
     overflow: hidden;
+    font-family: 'PT Sans Narrow', sans-serif; 
+}
+.card-text{
+    font-family: 'PT Sans Narrow', sans-serif; 
 }
 /* Footer*/
 .footer{
