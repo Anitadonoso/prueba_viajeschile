@@ -74,10 +74,21 @@
 .card-text{
     font-family: 'PT Sans Narrow', sans-serif; 
 }
-/* Footer*/
-.footer{
-    background-color: aqua;
+/* Contacto*/
+#contacto{
+font-family: 'PT Sans Narrow', sans-serif;   
+color: #ffff;
 }
+.contactotitulo{
+    text-align: center;
+    overflow: hidden;
+}
+#btn-contactar{
+    color: #ffff;
+    background-color:#5dc1b9 ;
+}
+/* Footer*/
+
 .títulofooter{
     background-color: aqua;
     overflow: hidden;
@@ -85,5 +96,5 @@
     color: #ffff;
 }
 .íconosfooter{
-    display: inline-block;
+    
 }
